@@ -1,14 +1,17 @@
 # arcadia.nrepl
-This is an nREPL bridge for Arcadia Unity.  It spins up a standard nREPL server
-and it redirects eval operations to the Arcadia UDP REPL.  This will allow to
-use existing tooling and editor integrations without the need to port nREPL and
-other middlewares/libraries to ClojureCLR.
+This is an [nREPL] bridge for [Arcadia Unity].  It spins up a standard nREPL
+server and it redirects eval operations to the Arcadia UDP REPL.  This will
+allow to use existing tooling and editor integrations without the need to port
+nREPL and other middlewares/libraries to ClojureCLR.
+
+[nREPL]: https://github.com/clojure/tools.nrepl
+[Arcadia Unity]: https://github.com/arcadia-unity/Arcadia
 
 At the moment though, it's just a very dirty hack to make vim-fireplace work
 with Arcadia :)
 
 ## How to use
-- Download the jar from [releases]
+- Download the jar from [releases](https://github.com/spacepluk/arcadia.nrepl/releases)
 - Create an `.nrepl-port` file in your project
 - Execute the jar with `java -jar`
 
