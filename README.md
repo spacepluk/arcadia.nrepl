@@ -13,7 +13,7 @@ with Arcadia :)
 - Execute the jar with `java -jar`
 
 ```bash
-wget http://
+wget https://github.com/spacepluk/arcadia.nrepl/releases/download/0.1.0-SNAPSHOT/arcadia.nrepl-0.1.0-SNAPSHOT-standalone.jar
 echo 7888 > .nrepl-port
 java -jar arcadia.nrepl-0.1.0-SNAPSHOT-standalone.jar
 ```
